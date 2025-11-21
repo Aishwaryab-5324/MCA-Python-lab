@@ -23,7 +23,7 @@ class Sports:
         print("Sports marks:",self.spmarks)
     
 
-#multilevel inheritance
+#multiple inheritance
 class Result(Test,Sports):
     def calculateGrade(self):
         m=self.marks+self.spmarks
@@ -50,3 +50,4 @@ stud1.displayStudent()
 stud1.displayMarks()
 stud1.displaySportsMarks()
 stud1.calculateGrade()
+
